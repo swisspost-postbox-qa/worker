@@ -15,20 +15,21 @@
 <h1>Swiss Post – Postbox QA (Prototype)</h1>
 
 <p>
-This is an <strong>early QA prototype</strong> to support OpenStreetMap mapping of
-<code>amenity=post_box</code> in Switzerland.
+This is an <strong>early QA prototype</strong> to support the maintenance of
+<code>amenity=post_box</code> data in OpenStreetMap (Switzerland).
 </p>
 
 <p>
-<strong>No automated edits.</strong><br>
-Swiss Post data is used as an <em>input for review only</em>.
+<strong>No automated edits are performed.</strong><br>
+Data from <a href="https://places.post.ch/location-search">Swiss Post’s public location search</a> is used
+<strong>for review and comparison only</strong>.
+OSM remains the authoritative record of on-the-ground reality.
 </p>
-
 <h2>Current prototype status</h2>
 
 <table>
-<tr><th>Area</th><td>Winterthur (test area)</td></tr>
-<tr><th>Last update</th><td>2025-12-14</td></tr>
+<tr><th>Area</th><td>Winterthur (limited test area)</td></tr>
+<tr><th>Last update</th><td>2025-12-14 (manual test run)</td></tr>
 <tr><th>OSM post_box objects</th><td>27</td></tr>
 <tr><th>Swiss Post letterboxes</th><td>31</td></tr>
 <tr><th>Matched (≤35 m)</th><td>24</td></tr>
@@ -36,17 +37,20 @@ Swiss Post data is used as an <em>input for review only</em>.
 <tr><th>Swiss Post without OSM match</th><td>7</td></tr>
 </table>
 
-<h2>Method</h2>
+<h2>Method (summary)</h2>
 <ul>
-  <li>Swiss Post public Standortsuche (Find + POI API)</li>
-  <li>OSM data via Overpass (amenity=post_box)</li>
-  <li>Spatial matching within a fixed radius</li>
-  <li>Human review required for all changes</li>
+  <li>Swiss Post public location search (Find + POI endpoints)</li>
+  <li>OSM data via Overpass API (<code>amenity=post_box</code>)</li>
+  <li>Spatial comparison using a fixed matching radius</li>
+  <li>All results require human review before any OSM change</li>
 </ul>
+
+<hr>
 
 <p>
 Project repository:
-<a href="https://github.com/swisspost-postbox-qa/worker/">GitHub</a>
+<a href="https://github.com/swisspost-postbox-qa/worker/">github.com/swisspost-postbox-qa/worker</a><br>
+This project is community-driven and not affiliated with Swiss Post or the OpenStreetMap Foundation.
 </p>
 
 </body>
