@@ -1,0 +1,71 @@
+{
+  "type": "FeatureCollection",
+  "name": "winterthur_postbox_review_example",
+  "crs": { "type": "name", "properties": { "name": "EPSG:4326" } },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "issue_type": "missing_collection_times",
+        "checked_at": "2025-12-14",
+        "match_radius_m": 35,
+        "distance_m": 4.2,
+        "osm_element": "node/123456789",
+        "post_source_id": "003BE_00315708",
+        "operator": "Swiss Post",
+        "street": "Schützenstrasse 33",
+        "city": "Winterthur",
+        "comment": "OSM post_box exists; collection_times missing (review suggested)."
+      },
+      "geometry": { "type": "Point", "coordinates": [ 8.71894128, 47.50360202 ] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "issue_type": "outdated_collection_times",
+        "checked_at": "2025-12-14",
+        "match_radius_m": 35,
+        "distance_m": 3.8,
+        "osm_element": "node/987654321",
+        "post_source_id": "003BE_00315710",
+        "operator": "Swiss Post",
+        "street": "Wartstrasse 158",
+        "city": "Winterthur",
+        "comment": "Swiss Post lists different emptying deadline than OSM (verify before changing)."
+      },
+      "geometry": { "type": "Point", "coordinates": [ 8.70956, 47.5052 ] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "issue_type": "possible_missing_postbox",
+        "checked_at": "2025-12-14",
+        "match_radius_m": 35,
+        "distance_m": null,
+        "osm_element": null,
+        "post_source_id": "003BE_00315712",
+        "operator": "Swiss Post",
+        "street": "Feldstrasse 57",
+        "city": "Winterthur",
+        "comment": "Swiss Post lists a letterbox near this location; no OSM post_box found within radius (ground check suggested)."
+      },
+      "geometry": { "type": "Point", "coordinates": [ 8.72091, 47.50437 ] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "issue_type": "needs_ground_check",
+        "checked_at": "2025-12-14",
+        "match_radius_m": 35,
+        "distance_m": 6.1,
+        "osm_element": "node/192837465",
+        "post_source_id": "003BE_00315715",
+        "operator": "Swiss Post",
+        "street": "Feldstrasse 2",
+        "city": "Winterthur",
+        "comment": "OSM post_box exists but Swiss Post does not list it in the public search (as of checked_at). Please verify on the ground."
+      },
+      "geometry": { "type": "Point", "coordinates": [ 8.7172, 47.50908 ] }
+    }
+  ]
+}
