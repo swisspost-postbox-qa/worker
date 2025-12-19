@@ -1,0 +1,5 @@
+issue_type,osm_id,post_source_id,street,city,distance_m,checked_at,comment
+missing_collection_times,123456789,003BE_00315708,Schützenstrasse 33,Winterthur,4.2,2025-12-14,"OSM object exists but has no collection_times"
+outdated_collection_times,987654321,003BE_00315710,Wartstrasse 158,Winterthur,3.8,2025-12-14,"Swiss Post lists different emptying time"
+possible_missing_postbox,,003BE_00315712,Feldstrasse 57,Winterthur,12.5,2025-12-14,"No OSM post_box found within radius"
+needs_ground_check,192837465,003BE_00315715,Feldstrasse 2,Winterthur,6.1,2025-12-14,"Swiss Post no longer lists this letterbox"
