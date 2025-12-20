@@ -60,22 +60,6 @@ All suggested actions require **human judgement** by OSM mappers.
 
 ---
 
-## Legal considerations
-
-Swiss Post data is used **as a reference signal only**.
-
-This project does **not** reproduce, redistribute or publish Swiss Post
-location data or content, nor does it provide a substitute for the
-Swiss Post “Standortsuche”.
-
-Only **derived QA hints** are generated (e.g. “please verify on the ground”).
-No Swiss Post datasets, tables or `collection_times` values are copied into OSM.
-
-Any OpenStreetMap edits resulting from this project are intended to be made
-**manually by human mappers**, based on on-the-ground verification and local knowledge.
-
----
-
 ## Method (high-level)
 
 1. Swiss Post letterbox locations are retrieved from public endpoints.
@@ -96,6 +80,22 @@ This is a **community-driven project**.
 - Ownership can be transferred or expanded to additional maintainers.
 
 There is no affiliation with Swiss Post or the OpenStreetMap Foundation.
+
+---
+
+## Legal considerations
+
+Swiss Post data is used **as a reference signal only**.
+
+This project does **not** reproduce, redistribute or publish Swiss Post
+location data or content, nor does it provide a substitute for the
+Swiss Post “Standortsuche”.
+
+Only **derived QA hints** are generated (e.g. “please verify on the ground”).
+No Swiss Post datasets, tables or `collection_times` values are copied into OSM.
+
+Any OpenStreetMap edits resulting from this project are intended to be made
+**manually by human mappers**, based on on-the-ground verification and local knowledge.
 
 ---
 
