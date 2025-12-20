@@ -52,11 +52,27 @@ All suggested actions require **human judgement** by OSM mappers.
 ## Data sources
 
 - **Swiss Post**  
-  Public location search (Standortsuche)  
+  Public location search (<a href="https://places.post.ch/standortsuche">Standortsuche</a>, Bedürfnis «Brief versenden»)  
   Used for review and comparison only.
 
 - **OpenStreetMap**  
   Data accessed via the Overpass API (`amenity=post_box`).
+
+---
+
+## Legal considerations
+
+Swiss Post data is used **as a reference signal only**.
+
+This project does **not** reproduce, redistribute or publish Swiss Post
+location data or content, nor does it provide a substitute for the
+Swiss Post “Standortsuche”.
+
+Only **derived QA hints** are generated (e.g. “please verify on the ground”).
+No Swiss Post datasets, tables or `collection_times` values are copied into OSM.
+
+Any OpenStreetMap edits resulting from this project are intended to be made
+**manually by human mappers**, based on on-the-ground verification and local knowledge.
 
 ---
 
