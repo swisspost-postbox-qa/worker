@@ -113,5 +113,4 @@ Discussions are expected to happen primarily via:
 
 The project code is published under an open-source license (to be specified).
 
-Generated QA outputs are intended for community use.# worker
-Tools to compare postbox objects in OSM and «Swiss Post Standortsuche»
+Generated QA outputs are intended for community use.
